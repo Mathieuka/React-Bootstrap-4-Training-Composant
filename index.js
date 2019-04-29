@@ -8,6 +8,7 @@ import BadgeComponent from './src/lib/badge';
 import Formular from './src/lib/formular';
 import Formular2 from './src/lib/formular2';
 import JumbotronComponent from './src/lib/jumbotron';
+import CardComponent from './src/lib/cardComponent';
 
 
 class Index extends React.Component{
@@ -29,6 +30,8 @@ class Index extends React.Component{
                 <Formular/>
                 <h1 className='mt-5 mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Formular Prepend</b></h1>
                 <Formular2/>
+                <h1 className='mt-5 mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Card</b></h1>
+                <CardComponent/>
            </section>
                 <h1 className='mt-5 mb-3 bg-dark p-5 text-white text-center'>The class <b className='text-danger'>Jumbotron</b></h1>
                 <JumbotronComponent/>
