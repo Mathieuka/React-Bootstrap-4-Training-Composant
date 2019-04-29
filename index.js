@@ -9,7 +9,7 @@ import Formular from './src/lib/formular';
 import Formular2 from './src/lib/formular2';
 import JumbotronComponent from './src/lib/jumbotron';
 import CardComponent from './src/lib/cardComponent';
-
+import ProgressionBar from './src/lib/progressionBar';
 
 class Index extends React.Component{
 
@@ -32,6 +32,8 @@ class Index extends React.Component{
                 <Formular2/>
                 <h1 className='mt-5 mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Card</b></h1>
                 <CardComponent/>
+                <h1 className='mt-5 mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Bar Progression</b></h1>
+                <ProgressionBar/>
            </section>
                 <h1 className='mt-5 mb-3 bg-dark p-5 text-white text-center'>The class <b className='text-danger'>Jumbotron</b></h1>
                 <JumbotronComponent/>
