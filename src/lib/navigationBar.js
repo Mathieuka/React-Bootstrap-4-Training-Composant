@@ -3,7 +3,7 @@ import { Nav, Navbar, Form, NavDropdown, FormControl, Button } from 'react-boots
 
 
 
-const NavigationBar = () => {
+const NavigationBar = (props) => {
     return ( 
         <Navbar bg="dark" expand="lg" variant="dark">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
