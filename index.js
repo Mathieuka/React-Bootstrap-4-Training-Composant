@@ -7,6 +7,7 @@ import NavigationBar from './src/lib/navigationBar';
 import BadgeComponent from './src/lib/badge';
 import Formular from './src/lib/formular';
 import Formular2 from './src/lib/formular2';
+import JumbotronComponent from './src/lib/jumbotron';
 
 
 class Index extends React.Component{
@@ -14,6 +15,7 @@ class Index extends React.Component{
     
     render(){
         return(
+            <div>
            <section className='p-5 text-center'>  
                 <h1 className='mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Buttons</b></h1>
                 <ButtonTraining/>
@@ -28,6 +30,9 @@ class Index extends React.Component{
                 <h1 className='mt-5 mb-3 bg-dark p-5 text-white'>The class <b className='text-danger'>Formular Prepend</b></h1>
                 <Formular2/>
            </section>
+                <h1 className='mt-5 mb-3 bg-dark p-5 text-white text-center'>The class <b className='text-danger'>Jumbotron</b></h1>
+                <JumbotronComponent/>
+           </div>
         )
     }
 }
